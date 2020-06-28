@@ -1,0 +1,34 @@
+# Site settings
+
+# REQUIRED CHANGES
+# Edit next line, providing your own name.
+title: Lambert Leong | Professional Portfolio
+# Edit next line, replacing 'techfolios' with your github username
+url: "https://lambertleong.github.io"
+# Edit next line so that baseurl is "" if your repo is <username>.github.io
+baseurl: ""
+
+# OPTIONAL CHANGES
+# You might want to change the bio page label to something else, such as CV
+bio-page-label: Resume
+# You might want to change the theme associated with one or more sections of the site.
+# Defining your own custom theme variations is easy. See the documentation.
+theme-home: theme-home-builtin-2.html
+theme-projects: theme-projects-builtin-1.html
+theme-essays: theme-essays-builtin-2.html
+theme-work: theme-work-builtin-2.html
+theme-bio: theme-bio-builtin-1.html
+theme-project_extra: theme-project_extra.html
+theme-work_extra: theme-work_extra.html
+
+# YOU NORMALLY NEVER CHANGE THE FOLLOWING
+markdown: kramdown
+include: [_data]
+
+plugins: 
+- jekyll-latex 
+#plugins: [jekyll-mermaid]
+
+#mermaid:
+#  src: 'js/mermaid.min.js'
+#  src_config: 'js/mermaid_config.js'
